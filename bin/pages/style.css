@@ -18,3 +18,22 @@ a {
     text-decoration: none;
     margin-right: 10px;
 }
+.clicker:hover {
+    background-color: #808080;
+}
+.clicker:active {
+    background-color: #525252;
+}
+.clicker {
+    display: flex;
+    color: red;
+    background-color: #ADADAD;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    border-radius: 8px;
+    margin: auto;
+    height: 40px;
+    width: 100px;
+}
