@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com');
 body {
     background-color: #cae7d3;
 }
-h1 {
-  text-align: center;  
-}
-h2 {
-    text-align: center;
-    color: black;
+h1, h2 {
+  text-align: center; 
+  font-family: "Quicksand", sans-serif; 
 }
 img {
     display: block;
@@ -17,6 +15,7 @@ img {
 a {
     text-decoration: none;
     margin-right: 10px;
+    font-family: "Poppins",sans-serif;
 }
 .clicker:hover {
     background-color: #808080;
